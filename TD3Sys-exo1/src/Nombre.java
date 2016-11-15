@@ -12,7 +12,7 @@ public class Nombre  {
 	indicateur=1;
 }
 
-public synchronized void afficher() throws InterruptedException
+public synchronized void afficher() throws InterruptedException 
  {
 	if (indicateur==1)
 	{
