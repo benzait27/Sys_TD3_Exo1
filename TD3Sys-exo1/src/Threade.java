@@ -28,14 +28,12 @@ public class Threade extends Thread{
 		}} 
 		
 		else   {
-			if (nb.indicateur==0)
-			{
+		
 			try {
 			while (!this.isInterrupted()) {
 			
 				sleep(200);
 				nb.calculer();
-				notifyAll();
 			} }
 			catch (Exception e) {
 				e.printStackTrace();
@@ -44,6 +42,6 @@ public class Threade extends Thread{
 		
 	} 
 			}}
-	}
+
 
 
